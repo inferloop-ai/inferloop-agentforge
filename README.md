@@ -92,9 +92,9 @@ AgentForge is currently in the design phase. The architecture has been defined t
 
 ## Related Documentation
 
-- [Module Differentiation](../MODULE_PRODUCT_MAPPING.md) - How AgentForge modules differ from AgentCraft
-- [Marketplace Integration](../MARKETPLACE_API_INTEGRATION.md) - API specifications for marketplace integration
-- [Main Repository Guide](../CLAUDE.md) - Overall ecosystem documentation
+- [Module Differentiation](../inferloop-designs/MODULE_PRODUCT_MAPPING.md) - How AgentForge modules differ from AgentCraft
+- [Marketplace Integration](../inferloop-designs/MARKETPLACE_API_INTEGRATION.md) - API specifications for marketplace integration
+- [Main Repository Guide](../inferloop-designs/CLAUDE.md) - Overall ecosystem documentation
 
 ## License
 

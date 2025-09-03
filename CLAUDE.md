@@ -100,6 +100,6 @@ All agent frameworks should be supported through a common adapter pattern, allow
 
 ## Related Documentation
 
-- Parent repository: `/home/dmiruke/agent-dev-products/CLAUDE.md`
-- Module mapping: `/home/dmiruke/agent-dev-products/MODULE_PRODUCT_MAPPING.md`
+- Parent repository: `/home/dmiruke/agent-dev-products/inferloop-designs/CLAUDE.md`
+- Module mapping: `/home/dmiruke/agent-dev-products/inferloop-designs/MODULE_PRODUCT_MAPPING.md`
 - AgentCraft integration: `/home/dmiruke/agent-dev-products/inferloop-agentcraft/designs/integration/MODULE_DIFFERENTIATION.md`
