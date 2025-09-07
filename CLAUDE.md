@@ -103,3 +103,31 @@ All agent frameworks should be supported through a common adapter pattern, allow
 - Parent repository: `/home/dmiruke/agent-dev-products/inferloop-designs/CLAUDE.md`
 - Module mapping: `/home/dmiruke/agent-dev-products/inferloop-designs/MODULE_PRODUCT_MAPPING.md`
 - AgentCraft integration: `/home/dmiruke/agent-dev-products/inferloop-agentcraft/designs/integration/MODULE_DIFFERENTIATION.md`
+# IMPORTANT PROJECT STRUCTURE NOTE
+
+## Directory Structure
+- /home/dmiruke/agent-dev-products is NOT a git repository
+- It is a product development project directory containing 10 separate git repositories
+- This repository (inferloop-agentforge) is one of 10 independent git repositories
+
+## Git Repositories in Project:
+1. inferloop-agentcraft
+2. inferloop-agentforge
+3. inferloop-agents
+4. inferloop-datalake
+5. inferloop-datamint
+6. inferloop-designs
+7. inferloop-marketplace
+8. inferloop-runtime
+9. inferloop-testnest
+10. inferloop-trustscan
+
+## Current Status
+- All repositories are on 'multi_tenant_saas' branch
+- Each repository maintains independent git history
+
+## Testing Requirements
+- Any changes must have associated tests
+- Must validate no regression in overall system
+- Testing mandatory before commits/deployments
+

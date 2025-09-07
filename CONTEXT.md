@@ -1,56 +1,40 @@
-# Context for InferLoop AgentForge
-
-## Repository Purpose
-Comprehensive framework setup and environment management for AI agent development, providing automated installation and configuration for multiple agent frameworks.
-
-## Current Status
-- **Phase**: Planning/Early Development
-- **Implementation**: Framework adapters being designed
-- **Priority**: P3 (Infrastructure component)
-
-## Key Integration Points
-- **Supports**: inferloop-agentcraft (provides framework environments)
-- **Configures for**: inferloop-testnest (sandbox environments)
-- **Validates with**: inferloop-trustscan (framework compatibility)
-
-## Framework Support
-Primary frameworks:
-- LangChain/LangGraph
-- AutoGen (Microsoft)
-- CrewAI
-- Semantic Kernel
-- OpenAI Swarm
-- Custom frameworks
-
-## Technology Stack
-- Python 3.8-3.12 support
-- Virtual environment management
-- Docker containerization
-- Package management (pip, conda)
-- Configuration management
+# Repository Context - 2025-09-06
+## DataMint Verticals Integration
+- Successfully restored demo version functionality
+- Rolled back database integration to hardcoded verticals
+- All 15 industry verticals working in DataMint
+- API endpoints functional at /api/v1/verticals
 
 ## Testing Requirements
-- Zero regression tolerance
-- Minimum 80% code coverage
-- Compatibility matrix testing
-- Multi-version support validation
+- Any changes must have associated tests
+- Must validate no regression in overall system
+- Testing mandatory before commits/deployments
 
-## Key Features
-- Automated framework installation
-- Dependency conflict resolution
-- Virtual environment isolation
-- Configuration templates
-- Version management
-- Rollback capabilities
+# IMPORTANT PROJECT STRUCTURE NOTE
 
-## Recent Changes
-- Created README.md with framework details
-- Added TESTING_REQUIREMENTS.md
-- Established compatibility testing matrix
+## Directory Structure
+- /home/dmiruke/agent-dev-products is NOT a git repository
+- It is a product development project directory containing 10 separate git repositories
+- This repository (inferloop-agentforge) is one of 10 independent git repositories
 
-## Next Steps
-1. Implement base installer class
-2. Create framework-specific adapters
-3. Build dependency resolver
-4. Implement environment manager
-5. Create configuration templates
+## Git Repositories in Project:
+1. inferloop-agentcraft
+2. inferloop-agentforge
+3. inferloop-agents
+4. inferloop-datalake
+5. inferloop-datamint
+6. inferloop-designs
+7. inferloop-marketplace
+8. inferloop-runtime
+9. inferloop-testnest
+10. inferloop-trustscan
+
+## Current Status
+- All repositories are on 'multi_tenant_saas' branch
+- Each repository maintains independent git history
+
+## Testing Requirements
+- Any changes must have associated tests
+- Must validate no regression in overall system
+- Testing mandatory before commits/deployments
+
